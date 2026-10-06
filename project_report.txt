@@ -1,0 +1,40 @@
+CYBERTHREAT DETECTOR - MINI PROJECT
+
+1. Project Title
+CyberThreat Detector
+
+2. Objective
+To build a small web-based cybersecurity tool that analyzes a user's incident description and identifies common threat categories.
+
+3. Technologies
+- Python
+- Flask
+- HTML
+- CSS
+
+4. Main Features
+- Incident input
+- Threat classification
+- Risk score
+- Severity detection
+- Security recommendation
+
+5. Working
+The application receives incident text from the user. The analyzer checks the text against predefined cybersecurity keywords. Based on matching rules, it identifies a threat type and calculates a simple risk score.
+
+6. Sample Test
+Input: Multiple failed login attempts detected
+Threat: Brute Force
+Severity: High
+Risk Score: 85/100
+
+7. Future Enhancements
+- MySQL database
+- Login authentication
+- Incident history
+- Admin dashboard
+- Real ML-based classification
+- Export reports
+
+8. Conclusion
+CyberThreat Detector demonstrates the basic workflow of a cybersecurity incident analysis application using Python Flask and simple rule-based detection.
